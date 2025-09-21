@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width,initial-scale=1'>
+  <title>SkillBridge - Demo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>SkillBridge — Demo</h1>
+    <div id="upload">
+      <h3>Upload Resume Text (paste)</h3>
+      <textarea id="resumeText" rows="6" placeholder="Paste resume text here..."></textarea>
+      <button id="analyzeBtn">Analyze</button>
+    </div>
+    <div id="results" style="display:none">
+      <h3>Detected Skills</h3>
+      <ul id="skillsList"></ul>
+      <h3>Sample Skill Gap Chart</h3>
+      <canvas id="gapChart" width="400" height="200"></canvas>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

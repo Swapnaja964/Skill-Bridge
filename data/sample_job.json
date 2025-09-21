@@ -1,0 +1,13 @@
+{
+  "title": "Senior Data Engineer",
+  "company": "Acme Corp",
+  "description": "Looking for a data engineer experienced in Spark, PySpark, AWS, Kubernetes, Docker, SQL",
+  "required_skills": [
+    "spark",
+    "pyspark",
+    "aws",
+    "kubernetes",
+    "docker",
+    "sql"
+  ]
+}
