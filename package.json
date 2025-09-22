@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "skillbridge_scaffold",
   "version": "1.0.0",
   "description": "> 🔍 Compare **candidate resumes** with **job postings** to identify missing skills, strengths, and personalized learning paths.",
@@ -322,4 +323,23 @@
     "url": "https://github.com/Swapnaja964/Skill-Bridge/issues"
   },
   "homepage": "https://github.com/Swapnaja964/Skill-Bridge#readme"
+=======
+  "dependencies": {
+    "@nestjs/common": "^11.1.6",
+    "@nestjs/config": "^4.0.2",
+    "@nestjs/core": "^11.1.6",
+    "@nestjs/platform-express": "^11.1.6",
+    "knex": "^3.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.10",
+    "@nestjs/schematics": "^11.0.7",
+    "@types/node": "^24.5.2",
+    "nodemon": "^3.1.10",
+    "ts-loader": "^9.5.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+>>>>>>> a300fe3813ed36e4a523539deb4216368f628c72
 }
